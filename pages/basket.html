@@ -1,0 +1,234 @@
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="../css/bootstrap.css">
+        <link rel="stylesheet" href="../css/basket.css">
+        <title>Basket</title>
+    </head>
+<body>
+    <header>
+        <div class="container">   
+            <div class="menu1">
+                <div class="p-menu p_mar">
+                    <p><a href="#">Сотрудничество</a></p> 
+                </div>
+                <div class="p-menu p_mar">
+                    <p><a href="#">Заказать звонок</a></p> 
+                </div>
+                <div class="p-menu">
+                    <a href="#" ><img src="../icon/phone.png" alt=""></a>
+                    <a href="#" ><img src="../icon/whatsapp.png" alt=""></a>
+                    <a href="#" ><img src="../icon/telegram.png" alt=""></a>
+                </div>
+            </div>
+                <div class="phone_num"><p>+992 98 505-50-50</p></div>
+                
+        </div>
+    </header>
+    <div class="border-top"></div>
+    <section class="crumbs">
+        <div class="container">
+            <nav aria-label="breadcrumb">
+                <ol class="breadcrumb">
+                <li class="li_img">
+                    <img src="img/page2/home.png" alt="">
+                </li>
+
+                  <li class="breadcrumb-item crumbs_style"><a href="../index.html">Главная</a></li>
+                  <li class="breadcrumb-item active" aria-current="page">Корзина</li>
+                </ol>
+              </nav>
+        </div>
+    </section>
+    
+<section class="elements">
+    <div class="container">
+            <h1 class="basket_h">Корзина</h1>
+        <div class="content">
+            <div class="element">
+                <div class="checbox">
+                    <div class="form-check">
+                        <input class="form-check-input check_goods" type="checkbox" value="" id="flexCheckDefault">
+                        <label class="form-check-label" for="flexCheckDefault">
+                            <div class="check_img">
+                               <img src="../img/goods/router.png" alt="">
+                            </div>
+                        </label>
+                        <div class="like-container2">
+                            <button class="like-button2"><img src="../img/goods/like.png" alt=""></button>
+                        </div>
+                        <div class="goods_info">
+                            <p>Wi-Fi роутер TP-Link Archer C50 White</p>
+                        </div>
+                        <div class="price">
+                            <p>549c</p>
+                        </div>
+
+                        <div class="counter-container">
+                            <div class="button_ctn" onclick="decrement()">-</div>
+                            <div class="count" id="count">1</div>
+                            <div class="button_ctn" onclick="increment()">+</div>
+                        </div>
+                    </div>
+
+                    <div class="form-check">
+                        <input class="form-check-input check_goods" type="checkbox" value="" id="flexCheckChecked">
+                        <label class="form-check-label" for="flexCheckChecked">
+                            <div class="check_img">
+                                <img src="../img/goods/mheadphone.png" alt="">
+                             </div>
+                        </label>
+                        <div class="like-container2">
+                            <button class="like-button2"><img src="../img/goods/like.png" alt=""></button>
+                        </div>
+                        <div class="goods_info">
+                            <p>Беспроводные наушники Redmi AirDots 2 Black</p>
+                        </div>
+
+                        <div class="price">
+                            <p>99c</p>
+                        </div>
+
+                        <div class="counter-container">
+                            <div class="button_ctn" onclick="decrement()">-</div>
+                            <div class="count" id="count">1</div>
+                            <div class="button_ctn" onclick="increment()">+</div>
+                        </div>
+                    </div>
+
+                    
+
+                </div>
+            </div>
+            <div class="order_form">                            
+                <div class="buy_button">
+                    <button type="button" class="btn btn_css"><a>Перейти к оформлению</a></button>
+                </div>
+               
+                <div class="delivery">
+                    <div class="delivery_img">
+                        <img src="../img/page2/delivery.png" alt="">
+                    </div>
+                </div>
+
+                <div class="border_order"></div>
+                <div class="order_info">
+                    <div class="info_left">
+                        <h6 class="your_basket">Ваша корзина</h6>
+                        <p class="goods_ctn">Товары(2)</p>
+                    </div>
+                    <div class="info_right">
+                        <p class="ctn_goods">2 Товара</p>
+                        <p class="prc_goods">648c</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<div class="border_order"></div>
+
+<section class="footer_sm">
+    <div class="container">
+      <div class="footer_info">
+
+        <div class="app_dowload">
+          <div class="../logo_store logo-img">
+            <img src="../img/footer/logo.png" alt="">
+          </div>
+          <div class="logo_store">
+            <a href="#"><img src="../img/footer/playMrkt.png" alt=""></a>
+          </div>
+          <div class="logo_store">
+            <a href="#"><img src="../img/footer/appStore.png" alt=""></a>
+          </div>
+        </div>
+
+        <div class="social_media">
+          <div class="sm_img">
+            <a href="#"><img src="../img/footer/vk.png" alt=""></a>
+          </div>
+          <div class="sm_img">
+            <a href="#"><img src="../img/footer/insta.png" alt=""></a> 
+          </div>
+          <div class="sm_img">
+            <a href="#"><img src="../img/footer/yt.png" alt=""></a> 
+          </div>
+          <div class="sm_img">
+            <a href="#"><img src="../img/footer/tlg.png" alt=""></a> 
+          </div>
+         
+        </div>
+
+      </div>
+
+    </div>
+</section> 
+
+<footer>
+    <div class="border_ftr"></div>
+    <div class="container">
+      <div class="license_paynents">
+
+        <div class="license">
+          <div class="license_a">
+            <a href="#">Реквизиты</a>
+          </div>
+          <div class="license_a">
+            <a href="#">Политика конфиденциальности</a>
+          </div>
+        </div>
+
+        <div class="p_o_grid">
+          <div class="payments">
+            <div class="payments_img">
+              <img src="../img/footer/k_m.png" alt="">
+            </div>
+            <div class="payments_img">
+              <img src="../img/footer/babilon.png" alt="">
+            </div>
+            <div class="payments_img">
+              <img src="../img/footer/alif.png" alt="">
+            </div>
+            <div class="payments_img">
+              <img src="../img/footer/visa.png" alt="">
+            </div>
+            <div class="payments_img">
+              <img src="../img/footer/m_c.png" alt="">
+            </div>
+          </div>
+  
+          <div class="online_chat">
+            online чат: 
+            <a href="#"><img src="../img/footer/phone.png" alt=""></a>  
+            <a href="#"><img src="../img/footer/whatsapp.png" alt=""></a>
+            <a href="#"><img src="../img/footer/telegram.png" alt=""></a>
+          </div>
+        </div>
+       
+      </div>
+
+    </div>
+</footer>
+
+    <script src="../js/bootstrap.bundle.js"></script>
+
+    <script>
+        let count = 1;
+      
+        function increment() {
+          count++;
+          document.getElementById("count").innerText = count;
+        }
+      
+        function decrement() {
+          if (count > 1) {
+            count--;
+            document.getElementById("count").innerText = count;
+          }
+        }
+      </script>
+</body>
+</html>

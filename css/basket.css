@@ -1,0 +1,336 @@
+/* HEADER & MENU */
+header{
+    padding: 0 200px;
+}
+
+.menu1{
+    width: 305px;
+    display: grid;
+    grid-template-columns: 100px 105px 100px;
+    margin-top: 10px;
+}
+
+.p_mar{
+    margin-top: 8px;
+}
+
+.bor_bot{
+    margin-bottom: 100px;
+}
+ 
+.p-menu img{
+    width: 14px;
+} 
+
+.p-menu a{
+    width: 96px;
+    font-family: 'Open Sans', sans-serif;    
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 16.34px;
+    text-align: left;
+    color: rgba(121, 125, 139, 1);
+    text-decoration: none;
+}
+
+.p-menu a:hover{
+    text-decoration: underline;
+}
+
+.phone_num{
+    width: 104px;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 12px;
+    font-weight: 600;
+    line-height: 16.34px;
+    float: right;
+    margin-top: -33px;
+}
+
+/*  Крошки  */ 
+
+.crumbs{
+    margin-top: 11px;
+}
+
+.crumbs_style a{
+    text-decoration: none;
+    color: rgba(93, 108, 123, 1);
+}
+
+.crumbs_style a:hover{
+   text-decoration: underline rgba(93, 108, 123, 1);
+}
+
+.breadcrumb{
+    float: left;
+}
+
+.li_img{
+    margin-right: 5px;
+}
+
+/* ELEMENTS */
+
+.basket_h{
+    font-family: 'Open Sans', sans-serif;
+    font-weight: bold;
+    color: rgba(47, 84, 200, 1);
+}
+
+.check_img img{
+    width: 100px;
+}
+
+.check_goods{
+    margin-top: 38px;
+}
+
+.goods_info, .price, .check_img,.counter-container,.button_ctn,.count{
+    display: inline-block;
+}
+
+.goods_info, .check_img{
+    margin-right: 25px;
+}
+
+.goods_info, .price{
+    margin-right: 45px;
+}
+
+
+.goods_info p{
+    font-family: 'Open Sans', sans-serif;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 24.51px;
+    text-align: left;
+    color: rgba(0, 0, 0, 1);
+}
+
+.price p{
+    font-family: 'Open Sans', sans-serif;
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 32.68px;
+    text-align: left;
+    color: rgba(0, 0, 0, 1);
+}
+
+.elements{
+    margin-top: 60px;
+}
+
+.element{
+    margin-top: 40px;
+}
+
+/* COUNTER */
+
+.counter-container {
+    margin-left: 50px;
+}
+  
+  .button_ctn {
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    width: 30px;
+    height: 30px;
+    text-align: center;
+    cursor: pointer;
+    font-size: 20px;
+    background-color: rgba(47, 84, 200, 1);
+    color: #ffffff;
+}
+
+  .button_ctn:hover {
+    background-color: #01015a;
+}
+
+  .count {
+    width: 40px;
+    text-align: center;
+    font-size: 18px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    margin: 0 5px;
+    background-color: #ffffff;
+}
+
+/* ----- BASKET FORM -------*/
+
+.border_order{
+    border-top: 1px solid #d0d4d7;;
+    margin-top: 20px;
+}
+
+.content{
+    display: flex;
+    gap: 100px;
+}
+
+.order_form{
+    float: right;
+    width: 297px;
+    height: 280px;
+    padding: 20px;
+    border-radius: 10px;
+    background: rgba(244, 247, 251, 1);
+    /* transform: translateX(33px) translateY(-34px); */
+    font-family: 'Open Sans', sans-serif;
+}
+
+.order_info{
+    display: flex;
+    gap: 57px;
+    margin-top: 26px;
+}
+
+.delivery{
+    margin-top: 10px;
+}
+
+.your_basket{
+    font-weight: bold;
+    font-size: 18px;
+}
+
+.ctn_goods{
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 16.34px;
+    text-align: left;
+    color: rgba(93, 108, 123, 1);
+}
+
+.prc_goods{
+    font-weight: bold;
+}
+
+/* BUY BUTTON */ 
+
+.btn_css{
+    margin-top: 15px;
+    width: 265px;
+    height: 49px;
+    padding: 15px 25px 15px 25px;
+    gap: 10px;
+    border-radius: 10px;
+    background: rgba(47, 84, 200, 1);
+    color: aliceblue;
+}
+
+.btn_css a{
+    font-family: 'Open Sans', sans-serif;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 19.07px;
+    text-align: center;
+}
+
+.btn_css:hover{
+    background: rgb(27, 50, 121);
+    color: rgb(255, 255, 255);
+}
+
+/* FOOTER  */
+
+.footer_sm{
+    margin-top: 40px;
+}
+
+
+.app_dowload{
+    max-width: 564px;
+    float: left;
+    display: grid;
+    grid-template-columns: 221px 151px 151px;
+    grid-gap: 20px;
+}
+
+.social_media{
+    max-width: 534px;
+    float: right;
+    display: grid;
+    grid-template-columns: 130px 130px 130px 130px;
+    grid-gap: 10px;
+}
+
+.logo-img{
+    margin-top: 7px;
+}
+
+
+/*  LICENSE & PAYMENTS */
+
+
+.license{
+    width: 260px;
+    display: grid;
+    grid-template-columns: 63px 188px;
+    grid-gap: 9px;
+    margin-top: 20px;
+}
+
+.license a{
+    font-family: 'Open Sans', sans-serif;
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 16.34px;
+    text-align: left;
+    color: rgba(93, 108, 123, 1);
+    text-decoration: none;
+}
+
+.license a:hover{
+    text-decoration: underline rgba(93, 108, 123, 1);
+}
+
+.payments{
+    width: 190px;
+    display: grid;
+    grid-template-columns: 34px 34px 34px 34px 34px;
+    grid-gap: 20px;
+}
+
+.p_o_grid{
+    float: right;
+    width: 499px;
+    display: grid;
+    grid-template-columns: 316px 161px;
+    grid-gap: 20px;
+    margin-top: -19px;
+}
+
+footer{
+    margin-top: 110px;
+    margin-bottom: 40px;
+}
+
+.border_ftr{
+    border-top: 1px solid #d0d4d7;;
+}
+/* LIKE BUTTON */
+
+.like-button2{
+    background: transparent;
+    border: none;
+    cursor: pointer;
+    outline: none;
+    padding: 0;
+}
+
+
+.like_button2 img {
+    width: 50px;
+    height: 50px; 
+    transition: transform 0.3s;
+}
+
+.like_button2:hover img {
+    transform: scale(1.1);
+}
+
+.like-container2{
+    float: right;
+} 

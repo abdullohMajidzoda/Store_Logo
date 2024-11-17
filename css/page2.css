@@ -235,12 +235,8 @@ header{
     float: right;
     width: 297px;
     height: 280px;
-    top: 319px;
-    left: 1063px;
     padding: 20px;
-    gap: 20px;
     border-radius: 10px;
-    opacity: 0px;
     background: rgba(244, 247, 251, 1);
     transform: translateX(33px) translateY(-34px);
 }
