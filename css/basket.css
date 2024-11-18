@@ -86,8 +86,19 @@ header{
     margin-top: 38px;
 }
 
-.goods_info, .price, .check_img,.counter-container,.button_ctn,.count{
+/* .goods_info, .price, .check_img,.counter-container,.button_ctn,.count{
     display: inline-block;
+} */
+
+.counter-container,.button_ctn,.count{
+    display: inline-block;
+}
+
+.form_check_goods{
+    display: grid;
+    width: 1000px;
+    grid-template-columns: 127px 383px 162px 255px;
+    padding: 20px;
 }
 
 .goods_info, .check_img{
@@ -123,6 +134,9 @@ header{
 
 .element{
     margin-top: 40px;
+    background-color:  rgba(244, 247, 251, 1);
+    padding: 20px;
+    border-radius: 10px;
 }
 
 /* COUNTER */
@@ -131,11 +145,11 @@ header{
     margin-left: 50px;
 }
   
-  .button_ctn {
+.button_ctn {
     border: 1px solid #ccc;
     border-radius: 4px;
-    width: 30px;
-    height: 30px;
+    width: 33px;
+    height: 34px;
     text-align: center;
     cursor: pointer;
     font-size: 20px;
@@ -143,11 +157,11 @@ header{
     color: #ffffff;
 }
 
-  .button_ctn:hover {
+.button_ctn:hover {
     background-color: #01015a;
 }
 
-  .count {
+.count {
     width: 40px;
     text-align: center;
     font-size: 18px;
@@ -178,6 +192,7 @@ header{
     background: rgba(244, 247, 251, 1);
     /* transform: translateX(33px) translateY(-34px); */
     font-family: 'Open Sans', sans-serif;
+    margin-top: 40px;
 }
 
 .order_info{
@@ -334,3 +349,132 @@ footer{
 .like-container2{
     float: right;
 } 
+
+.bg_input{
+    display: grid;
+    grid-template-columns: 710px 445px 1fr;
+    transform: translateX(-18px) translateY(102px);
+}
+
+ .bg_p p{
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 700;
+    line-height: 24.51px;
+    text-align: left;
+    font-size: 18px;
+}
+
+.bg_p p{
+    color: rgb(255, 255, 255);
+
+}
+
+.footer_input{
+    width:410px;
+    height: 52px;
+    top: 23.5px;
+    left: 795px;
+    padding: 15px 25px 15px 25px; 
+    gap: 10px;
+    border-radius: 10px;
+    background: rgba(255, 255, 255, 0.2);
+}
+
+/*  BUTTON  */
+
+.footer_btn{
+    width: 135px;
+    height: 52px;
+    top: 23.5px;
+    left: 1225px;
+    padding: 15px 25px 15px 25px; 
+    gap: 10px;
+    border-radius: 10px;
+}
+
+.footer_btn p{
+    font-family: 'Open Sans', sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 21.79px;
+    text-align: center;
+    color:rgba(47, 84, 200, 1);
+}
+
+.f_img img{
+    width: 100%;
+}
+
+/*  CONTACTS */ 
+
+.cat_menu, .buyers{
+    list-style: none;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 19.07px;
+    text-align: left;
+}
+
+.cat_menu a, .buyers a{
+    color: rgba(93, 108, 123, 1);
+    text-decoration: none;
+}
+
+.cat_menu a:hover, .buyers a:hover{
+    text-decoration:  underline rgba(93, 108, 123, 1);
+}
+
+.cat_menu li, .buyers li{
+    margin-top: 5px;
+}
+
+.cat_p{
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 24.51px;
+    text-align: left;
+    color: rgba(40, 39, 57, 1);
+    width: 158px;
+    height: 25px;
+    top: 143px;
+    left: 80px;
+}
+
+.contac_p{
+    color: rgba(93, 108, 123, 1);
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 19.07px;
+    text-align: left;
+    margin-bottom: 5px;
+}
+
+.contac_p2{
+    color: rgba(93, 108, 123, 1);
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 19.07px;
+    text-align: left;
+    margin-top: -15px;
+}
+
+.contac_num{
+    font-family: 'Open Sans', sans-serif;
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 21.79px;
+    text-align: left;
+    color: rgba(40, 39, 57, 1);
+}
+
+.f_help{
+    display: grid;
+    grid-template-columns: 300px 300px 1fr;
+    grid-gap: 75px;
+    margin-top: 50px;
+}
+
+.b_t_mrg{
+    margin-top: 50px;
+}
